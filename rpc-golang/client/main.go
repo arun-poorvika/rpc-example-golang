@@ -20,9 +20,9 @@ func main() {
 		log.Fatal("Connection error: ", err)
 	}
 
-	a := Item{"one", "shit one"}
-	b := Item{"two", "shit two"}
-	// c := Item{"three", "shit three"}
+	a := Item{"one", "shirt one"}
+	b := Item{"two", "shirt two"}
+	// c := Item{"three", "shirt three"}
 
 	client.Call("API.AddItem", a, &reply)
 	client.Call("API.AddItem", b, &reply)
